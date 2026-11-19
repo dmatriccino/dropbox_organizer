@@ -1,0 +1,21 @@
+# Secrets: the refresh token lives in ~/.config/dropbox_organizer/token, never here.
+token
+*.token
+.env
+
+# Local scan state and output
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+data/
+reports/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
